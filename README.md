@@ -9,11 +9,13 @@ The system utilizes a hybrid architecture combining **YOLOv8n** for precise obje
 The workflow consists of two main stages:
 1.  **Object Detection (YOLOv8n):** Locates terminal block connectors within the input image/video stream.
 2.  **Classification (ResNet50):** Analyzes the detected regions to determine their specific status:
-* **`Bad`**: The connector had broken leg(s)
+* **`Bad`**: The connector had pin breakage or deformation.
+* **`Good`**: The connector(s) is/are normal, ready to use.
+* **`Unknown`**: The system cannot recognise the connector.
 ## II. Project Structure:
 
 * **`app.py`**: The main application script (User Interface).
-* **`requirements.txt`**: List of all Python dependencies required (PyTorch, Ultralytics, etc.).
+* **`requirements.txt`**: List of all Python dependencies required (Ultralytics, etc.).
 * **`best*.pt`** (Model Weights):
     * `best1111.pt`: Model checkpoint (Version: Nov 11, 2025).
     * `best2511.pt`: Model checkpoint (Version: Nov 25, 2025).
