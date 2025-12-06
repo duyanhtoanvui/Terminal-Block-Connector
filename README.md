@@ -15,9 +15,9 @@ The workflow consists of two main stages:
 * **`app.py`**: The main application script (User Interface).
 * **`requirements.txt`**: List of all Python dependencies required (PyTorch, Ultralytics, etc.).
 * **`best*.pt`** (Model Weights):
-    * `best1111.pt`: Model checkpoint (Version: Nov 11).
-    * `best2511.pt`: Model checkpoint (Version: Nov 25).
-    * `best25112.pt`: Optimized/Experimental model weights.
+    * `best1111.pt`: Model checkpoint (Version: Nov 11, 2025).
+    * `best2511.pt`: Model checkpoint (Version: Nov 25, 2025).
+    * `best25112.pt`: A better version of `best2511.pt`.
 
 ## III. Prerequisites:
 
