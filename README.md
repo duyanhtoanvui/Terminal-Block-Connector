@@ -8,8 +8,8 @@ The system utilizes a hybrid architecture combining **YOLOv8n** for precise obje
 
 The workflow consists of two main stages:
 1.  **Object Detection (YOLOv8n):** Locates terminal block connectors within the input image/video stream.
-2.  **Classification (ResNet50):** Analyzes the detected regions to determine their specific status (e.g., Open, Closed, Loose, Secured).
-
+2.  **Classification (ResNet50):** Analyzes the detected regions to determine their specific status:
+* **`Bad`**: The connector had broken leg(s)
 ## II. Project Structure:
 
 * **`app.py`**: The main application script (User Interface).
