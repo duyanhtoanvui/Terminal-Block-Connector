@@ -4,7 +4,7 @@ This repository contains a Deep Learning application designed to automatically d
 
 The system utilizes a hybrid architecture combining **YOLOv8n** for precise object detection and **ResNet50** for robust classification, achieving high accuracy in standard operational environments.
 
-Tool I used to label the objets: **CVAT** at https://www.cvat.ai/ 
+Tool I used to label the objects: **CVAT** at https://www.cvat.ai/ 
 
 ## I. System Architecture:
 
