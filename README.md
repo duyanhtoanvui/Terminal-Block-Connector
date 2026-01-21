@@ -1,5 +1,12 @@
 # ***INSTRUCTION*** for using my project: **Terminal Block Connector Status Recognition**
 
+![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-blue?logo=python&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-eb1616?logo=ultralytics&logoColor=white)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![CVAT](https://img.shields.io/badge/Annotation-CVAT-01c3fb?logo=cvat&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 This repository contains a Deep Learning application designed to automatically detect and classify the status of terminal block connectors.
 
 The system utilizes a hybrid architecture combining **YOLOv8n** for precise object detection and **ResNet50** for robust classification, achieving high accuracy in standard operational environments.
