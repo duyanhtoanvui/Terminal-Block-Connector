@@ -20,8 +20,8 @@ The workflow consists of two main stages:
     * `best1111.pt`: Model checkpoint (Version: Nov 11, 2025).
     * `best2511.pt`: Model checkpoint (Version: Nov 25, 2025).
     * `best25112.pt`: Another version of `best2511.pt`.
+    * I also have 3 folders showing the graphs of each model, help you to understand the status of the model easier. 
 * **`classifier_best2511.pt`** for *Classification*.
-* 
 * If you want to experience the most effective recoginition, a combination of **`best2511.pt`** and **`classifier_best2511.pt`** would be perfect.
 
 ## III. Prerequisites:
