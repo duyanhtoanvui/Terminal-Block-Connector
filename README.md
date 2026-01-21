@@ -4,6 +4,8 @@ This repository contains a Deep Learning application designed to automatically d
 
 The system utilizes a hybrid architecture combining **YOLOv8n** for precise object detection and **ResNet50** for robust classification, achieving high accuracy in standard operational environments.
 
+Tool I used to label the objets: **CVAT** at https://www.cvat.ai/ 
+
 ## I. System Architecture:
 
 The workflow consists of two main stages:
@@ -12,6 +14,7 @@ The workflow consists of two main stages:
 * **`Bad`**: The connector had pin breakage or deformation.
 * **`Good`**: The connector(s) is/are normal, ready to use.
 * **`Unknown`**: The system cannot recognise the connector.
+
 ## II. Project Structure:
 
 * **`app.py`**: The main application script (User Interface).
