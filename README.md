@@ -1,4 +1,4 @@
-# ***INSTRUCTION*** for using my project: **Terminal Block Connector Status Recognition**
+# ***INSTRUCTION*** for using project: **Terminal Block Connector Status Recognition**
 
 This repository contains a Deep Learning application designed to automatically detect and classify the status of terminal block connectors.
 
