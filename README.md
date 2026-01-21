@@ -20,6 +20,7 @@ The workflow consists of two main stages:
     * `best1111.pt`: Model checkpoint (Version: Nov 11, 2025).
     * `best2511.pt`: Model checkpoint (Version: Nov 25, 2025).
     * `best25112.pt`: A better version of `best2511.pt`.
+* If you want to experience the most effective recoginition, a combination of **`best25112.pt`** and **pin_classifier**
 
 ## III. Prerequisites:
 
