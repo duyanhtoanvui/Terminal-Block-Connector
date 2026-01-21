@@ -6,6 +6,8 @@ The system utilizes a hybrid architecture combining **YOLOv8n** for precise obje
 
 Tool I used to label the objects: **CVAT** at https://www.cvat.ai/ 
 
+Project finished day: *Dec 09, 2025*
+
 ## I. System Architecture:
 
 The workflow consists of two main stages:
